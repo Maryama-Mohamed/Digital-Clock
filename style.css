@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* background-color: #0ba85786; */
+  font-weight: 400;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./lion-pride-in-serengeti.jpg);
+  background-size: cover;
+  text-align: center;
+}
+#today,
+#time {
+  color: white;
+  font-size: 8rem;
+}
+#date {
+  color: white;
+  font-size: 4rem;
+}
